@@ -1,0 +1,6 @@
+package: github.com/schubergphilis/kube-wait
+import:
+- package: k8s.io/kubernetes
+  subpackages:
+  - pkg/api
+  - pkg/client/unversioned
